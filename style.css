@@ -1,0 +1,63 @@
+/* 
+-- White: hsl(0, 0%, 100%);
+-- Light gray: hsl(212, 45%, 89%);
+--Grayish blue: hsl(220, 15%, 55%);
+--Dark blue: hsl(218, 44%, 22%);
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap'); 
+ 
+ body{
+     font-size: 15px;
+    font-family: "outfit", sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    justify-content: cegnter;
+    align-items: center;
+    display: flex;
+    height: 500px;
+}
+
+.container{
+    background-color: white;
+    padding: 10px;
+    width: 245px;
+    border-radius: 10px ;
+    height: 370px;
+    box-shadow: 1px 5px 23px rgb(141, 138, 138);
+}
+img{
+   border-radius: 5px;
+   justify-content: center;
+  
+}
+
+.text-1{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    
+}
+.text-2{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    color:hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+/* 
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700 */
+
